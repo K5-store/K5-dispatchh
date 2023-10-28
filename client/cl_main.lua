@@ -1,7 +1,7 @@
 PlayerData = {}
 PlayerJob = {}
 isLoggedIn = true
-QBCore = exports['K5-core']:GetCoreObject()
+QBCore = exports['qb-core']:GetCoreObject()
 local blips = {}
 
 -- Debugging and testing dispatch alerts - Uncomment to use. 

@@ -1,4 +1,4 @@
-local QBCore = exports['K5-core']:GetCoreObject()
+local QBCore = exports['qb-core']:GetCoreObject()
 local calls = {}
 
 function _U(entry)
@@ -55,7 +55,7 @@ RegisterNetEvent("dispatch:respondWithHotkey", function(callid)
             calls[callid].units[units_count+1] = { identifier = player.identifier, fullname = player.fullname, job = 'EMS', callsign = player.callsign }
         end
 		TriggerClientEvent("dispatch:c:respondWaypoint", source, calls[callid])
-		TriggerClientEvent("K5-mdt:c:respondToCall", source)
+		TriggerClientEvent("qb-mdt:c:respondToCall", source)
     end
 end)
 

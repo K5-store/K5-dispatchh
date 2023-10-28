@@ -196,7 +196,7 @@ local function CarBoosting(vehicle)
 end exports('CarBoosting', CarBoosting)
 
 ---------------------------
----- K5-signrobbery -------
+---- qb-signrobbery -------
 ---------------------------
 
 local function SignRobbery()
